@@ -1,0 +1,14 @@
+{
+  "bindings": [
+    {
+      "name": "mySbMsg",
+      "type": "serviceBusTrigger",
+      "direction": "in",
+      "topicName": "orders",
+      "subscriptionName": "other",
+      "connection": "BlackBoxSBus",
+      "accessRights": "Manage"
+    }
+  ],
+  "disabled": false
+}
