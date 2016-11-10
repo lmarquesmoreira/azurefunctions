@@ -1,7 +1,7 @@
 using System;
 using System.Threading.Tasks;
 
-public static void Run(string mySbMsg, TraceWriter log)
+public static void Run(string msg, TraceWriter log)
 {
-    log.Info($"OtherConsumer processed message: {mySbMsg}");
+    log.Info($"OtherConsumer processed message: {msg}");
 }
